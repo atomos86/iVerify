@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11CBB9CA8C5D4A5AB3AB8DDF /* iVerify.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5B4F6B645446A8B54AAD55 /* iVerify.h */; };
+		3A824B222C96461C8CC7464A /* Verify.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD0BF8715344292BB985859 /* Verify.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4839D70B935245E396102607 /* UITextField+Verify.h in Headers */ = {isa = PBXBuildFile; fileRef = 86724413058C4AB383CBC180 /* UITextField+Verify.h */; };
+		48B5C8C6668546AEA743F37E /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 868EFD14C8A7433DA7676658 /* Pods-dummy.m */; };
+		5D01BFCF1D9D4D0285C4EB39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01EAD6FECF148C884428F58 /* Foundation.framework */; };
+		6A9137094C52415AB37AE456 /* UITableView+Verify.h in Headers */ = {isa = PBXBuildFile; fileRef = AB448D75EF32437D804E7A49 /* UITableView+Verify.h */; };
+		70457E2DC42945CCB595C78E /* Verify.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3504972DF04D0BB0656389 /* Verify.h */; };
+		8BAB5F54E3434FCEAA94ACF1 /* UITextField+Verify.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7837AFAC8F420283129494 /* UITextField+Verify.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		95406640335240A5BBAD0D8F /* UITableView+Verify.m in Sources */ = {isa = PBXBuildFile; fileRef = 843392FB41DD4D2ABDB81A3E /* UITableView+Verify.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		9B9EA5E9CDF7456B8FCE353C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01EAD6FECF148C884428F58 /* Foundation.framework */; };
+		C64A26955606488A90A5ADBE /* Pods-iVerify-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B53FF5BA95234A02A37B4EFF /* Pods-iVerify-dummy.m */; };
+		EB2BBA2006CF4C5BA1472095 /* libPods-iVerify.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA04159DCCE64E8396F9C672 /* libPods-iVerify.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4148B257B63B442AB7B0BC4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83B1D51D4BAC404B8DF938C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E59BC631AD6D404AB6A22D82;
+			remoteInfo = "Pods-iVerify";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DD0BF8715344292BB985859 /* Verify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Verify.m; path = iVerify/Verify.m; sourceTree = "<group>"; };
+		0FB0B4388D554915B59EEAA0 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		1AB72E6B0D634FD58B28EF56 /* Pods-iVerify-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iVerify-prefix.pch"; sourceTree = "<group>"; };
+		1E058C916626453EB417D62A /* Pods-iVerify.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iVerify.xcconfig"; sourceTree = "<group>"; };
+		208F6E53065E446FB6F53FFF /* Pods-iVerify-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iVerify-Private.xcconfig"; sourceTree = "<group>"; };
+		2B7837AFAC8F420283129494 /* UITextField+Verify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+Verify.m"; path = "iVerify/UITextField+Verify.m"; sourceTree = "<group>"; };
+		3E3B3C2C2FAD47698C254558 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		843392FB41DD4D2ABDB81A3E /* UITableView+Verify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+Verify.m"; path = "iVerify/UITableView+Verify.m"; sourceTree = "<group>"; };
+		86724413058C4AB383CBC180 /* UITextField+Verify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+Verify.h"; path = "iVerify/UITextField+Verify.h"; sourceTree = "<group>"; };
+		868EFD14C8A7433DA7676658 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		9847785798D94A48A8D6B534 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB448D75EF32437D804E7A49 /* UITableView+Verify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+Verify.h"; path = "iVerify/UITableView+Verify.h"; sourceTree = "<group>"; };
+		B53FF5BA95234A02A37B4EFF /* Pods-iVerify-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iVerify-dummy.m"; sourceTree = "<group>"; };
+		B58FBAC29D9C46C481DF8B06 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8AFE2C3DE5D46E6AC855D4B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = "<group>"; };
+		CC3504972DF04D0BB0656389 /* Verify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Verify.h; path = iVerify/Verify.h; sourceTree = "<group>"; };
+		CCF5AA9CC6244D8EBEDE92C1 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D01EAD6FECF148C884428F58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB5B4F6B645446A8B54AAD55 /* iVerify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iVerify.h; path = iVerify/iVerify.h; sourceTree = "<group>"; };
+		E4FE428E17D94C84827DD8EC /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA04159DCCE64E8396F9C672 /* libPods-iVerify.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iVerify.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60A7DD1E145243DBB08DACA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B9EA5E9CDF7456B8FCE353C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DE10129E234546AC46320F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D01BFCF1D9D4D0285C4EB39 /* Foundation.framework in Frameworks */,
+				EB2BBA2006CF4C5BA1472095 /* libPods-iVerify.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D5DA8D1DC954F0AB519FE8E = {
+			isa = PBXGroup;
+			children = (
+				EF8247B7E81D4D579C760741 /* Development Pods */,
+				14247C306A0846B69284B7AF /* Frameworks */,
+				8C6369F7C9154B01BDB78F7F /* Products */,
+				2CF3A4C377B546578D0876EE /* Targets Support Files */,
+				CCF5AA9CC6244D8EBEDE92C1 /* Podfile */,
+			);
+			sourceTree = "<group>";
+		};
+		14247C306A0846B69284B7AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D01EAD6FECF148C884428F58 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1EBE00D8E73E4FD9BA1DE099 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FB0B4388D554915B59EEAA0 /* Pods-environment.h */,
+				868EFD14C8A7433DA7676658 /* Pods-dummy.m */,
+				9847785798D94A48A8D6B534 /* Pods-acknowledgements.markdown */,
+				E4FE428E17D94C84827DD8EC /* Pods-acknowledgements.plist */,
+				3E3B3C2C2FAD47698C254558 /* Pods-resources.sh */,
+				C8AFE2C3DE5D46E6AC855D4B /* Pods.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2CF3A4C377B546578D0876EE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EBE00D8E73E4FD9BA1DE099 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		608B7E668C6C42C49C5CE7D4 /* iVerify */ = {
+			isa = PBXGroup;
+			children = (
+				E06305DDA0E6430486A290A7 /* Products */,
+				C1EE16C34C204D43BD559792 /* Source Files */,
+				6FDC446EAC944BF4BB89DCE9 /* Support Files */,
+			);
+			name = iVerify;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6FDC446EAC944BF4BB89DCE9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B53FF5BA95234A02A37B4EFF /* Pods-iVerify-dummy.m */,
+				1AB72E6B0D634FD58B28EF56 /* Pods-iVerify-prefix.pch */,
+				1E058C916626453EB417D62A /* Pods-iVerify.xcconfig */,
+				208F6E53065E446FB6F53FFF /* Pods-iVerify-Private.xcconfig */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		8C6369F7C9154B01BDB78F7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B58FBAC29D9C46C481DF8B06 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1EE16C34C204D43BD559792 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB448D75EF32437D804E7A49 /* UITableView+Verify.h */,
+				86724413058C4AB383CBC180 /* UITextField+Verify.h */,
+				CC3504972DF04D0BB0656389 /* Verify.h */,
+				DB5B4F6B645446A8B54AAD55 /* iVerify.h */,
+				843392FB41DD4D2ABDB81A3E /* UITableView+Verify.m */,
+				2B7837AFAC8F420283129494 /* UITextField+Verify.m */,
+				0DD0BF8715344292BB985859 /* Verify.m */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E06305DDA0E6430486A290A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA04159DCCE64E8396F9C672 /* libPods-iVerify.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF8247B7E81D4D579C760741 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				608B7E668C6C42C49C5CE7D4 /* iVerify */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2FB44CA75A36415C8C013669 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A9137094C52415AB37AE456 /* UITableView+Verify.h in Headers */,
+				4839D70B935245E396102607 /* UITextField+Verify.h in Headers */,
+				70457E2DC42945CCB595C78E /* Verify.h in Headers */,
+				11CBB9CA8C5D4A5AB3AB8DDF /* iVerify.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AE092FB961C447429F3C3071 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035C1E036E3B4581B8C77903 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				A5741387E8C64F8DA7635C83 /* Sources */,
+				D2DE10129E234546AC46320F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D19B2763CE3445695BA6000 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = B58FBAC29D9C46C481DF8B06 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E59BC631AD6D404AB6A22D82 /* Pods-iVerify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FBE9BC2883409D8C2D9878 /* Build configuration list for PBXNativeTarget "Pods-iVerify" */;
+			buildPhases = (
+				FD2B0778D4C84BD592F66310 /* Sources */,
+				60A7DD1E145243DBB08DACA5 /* Frameworks */,
+				2FB44CA75A36415C8C013669 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-iVerify";
+			productName = "Pods-iVerify";
+			productReference = EA04159DCCE64E8396F9C672 /* libPods-iVerify.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83B1D51D4BAC404B8DF938C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 05ECD89BBE33414EAFF4E7CB /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0D5DA8D1DC954F0AB519FE8E;
+			productRefGroup = 8C6369F7C9154B01BDB78F7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE092FB961C447429F3C3071 /* Pods */,
+				E59BC631AD6D404AB6A22D82 /* Pods-iVerify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5741387E8C64F8DA7635C83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B5C8C6668546AEA743F37E /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2B0778D4C84BD592F66310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64A26955606488A90A5ADBE /* Pods-iVerify-dummy.m in Sources */,
+				95406640335240A5BBAD0D8F /* UITableView+Verify.m in Sources */,
+				8BAB5F54E3434FCEAA94ACF1 /* UITextField+Verify.m in Sources */,
+				3A824B222C96461C8CC7464A /* Verify.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D19B2763CE3445695BA6000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E59BC631AD6D404AB6A22D82 /* Pods-iVerify */;
+			targetProxy = 4148B257B63B442AB7B0BC4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E17B032BA32490887F0D690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 208F6E53065E446FB6F53FFF /* Pods-iVerify-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-iVerify-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D617752E1184E05B5FA8522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8AFE2C3DE5D46E6AC855D4B /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		70F0856DDFE1444593E0C31F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 208F6E53065E446FB6F53FFF /* Pods-iVerify-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-iVerify-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AD8BCD34036A4660BE0F61C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8AFE2C3DE5D46E6AC855D4B /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C36B6535979341EF9D6D2070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		D10C2C05F6AB4634841A944C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		035C1E036E3B4581B8C77903 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D617752E1184E05B5FA8522 /* Debug */,
+				AD8BCD34036A4660BE0F61C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05ECD89BBE33414EAFF4E7CB /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36B6535979341EF9D6D2070 /* Debug */,
+				D10C2C05F6AB4634841A944C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4FBE9BC2883409D8C2D9878 /* Build configuration list for PBXNativeTarget "Pods-iVerify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F0856DDFE1444593E0C31F /* Debug */,
+				0E17B032BA32490887F0D690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83B1D51D4BAC404B8DF938C9 /* Project object */;
+}

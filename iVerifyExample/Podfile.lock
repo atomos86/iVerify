@@ -1,0 +1,14 @@
+PODS:
+  - iVerify (1.0.0)
+
+DEPENDENCIES:
+  - iVerify (from `../`)
+
+EXTERNAL SOURCES:
+  iVerify:
+    :path: ../
+
+SPEC CHECKSUMS:
+  iVerify: db70c85b0b672b236c3d25d1970667b8cf59420d
+
+COCOAPODS: 0.25.0
