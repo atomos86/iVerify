@@ -1,24 +1,39 @@
-AtomicUI is a simple interface object library built on top of [Masonry](https://github.com/cloudkite/Masonry).
+iVerify is a framework for determining if inputs in subclasses of UIView meet certain basic criteria.
 
 ## How To Get Started
 
-AtomicUI can be installed via CocoaPods by adding "pod 'AtomicUI', git: 'https://github.com/WideEyeLabs/AtomicUI.git'" to your Podfile.
+iVerify can be installed via CocoaPods by adding "pod 'iVerify', git: 'https://github.com/atomos86/iVerify.git'" to your Podfile.
 
-### AtomSlideController
+## Using iVerify
 
+Using this framework is simple.  After importing the iVerify.h file you
+will have access to the Verify object and all relevant verification
+methods.
 
+Example:
 ```objective-c
-#import <AtomSlideController.h>
+#import <iVerify.h>
 
 // ..
 // ..
 
-id appDel = [[UIApplication sharedApplication] delegate];
-AtomSlideController *slide = [appDel slideController];
-[slide closeSlide];
-[slide startIndicator];
+NSDictionary *inputViews = @{ @"Name" : self.nameField, @"Password" : self.passwordField };
 
-[self performAsyncRequest:^()completion {
-  [slide stopIndicator];
+NSArray *errors = [Verify forInputs:inputViews that:^(Verify *inspect) {
+  [inspect[@"Name"] verifyItIsNotEmpty];
+  [inspect[@"Password] verifyItIsNotEmpty];
+  [inspect[@"Password] verifyItIsLongerThan:@5];
 }];
+
+if ([errors count] != 0)
+{
+  // handle errors / present an alert
+  NSString *errorMessage = [errors componentsJoinedByString:@"\n\n"];
+  UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Errors.." message:errorMessage delegate:self cancelButtonTitle:@"Thanks." otherButtonTitles:nil];
+  [alert show];
+}
+else
+{
+  // proceed
+}
 ```
