@@ -21,15 +21,15 @@ NSDictionary *inputViews = @{ @"Name" : self.nameField, @"Password" : self.passw
 
 NSArray *errors = [Verify forInputs:inputViews that:^(Verify *inspect) {
   [inspect[@"Name"] verifyItIsNotEmpty];
-  [inspect[@"Password] verifyItIsNotEmpty];
-  [inspect[@"Password] verifyItIsLongerThan:@5];
+  [inspect[@"Password"] verifyItIsNotEmpty];
+  [inspect[@"Password"] verifyItIsLongerThan:@5];
 }];
 
 if ([errors count] != 0)
 {
   // handle errors / present an alert
   NSString *errorMessage = [errors componentsJoinedByString:@"\n\n"];
-  UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Errors.." message:errorMessage delegate:self cancelButtonTitle:@"Thanks." otherButtonTitles:nil];
+  UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Errors.." message:errorMessage delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
   [alert show];
 }
 else
